@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.products{
+    text-align: center;
+    padding: 20px;
+}
+
+.product-cake{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 40px auto 0 auto;
+    
+}
+.cakes{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.color-rose{
+    background-color: #F2C7D7;
+}
+.color-yellow{
+    background-color: #Ffeb99;
+}
+.color-blue{
+    background-color: #C0F3ED;
+}
+
+@media (max-width: 520px) {
+    .cake{
+        width: 100%;
+    }
+
+    .product-cake{
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px){
+    .product-cake{
+        width: 100%;
+    }
+}
